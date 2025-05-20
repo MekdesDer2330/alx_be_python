@@ -1,5 +1,5 @@
-monthly_income = float(input("Enter your monthly income: "))
-total_expenses = float(input("Enter your total monthly expenses: "))
+monthly_income = 5000
+total_expenses = 4000
 monthly_savings = monthly_income - total_expenses
 annual_interest_rate = 0.05 
 projected_savings = (monthly_savings * 12) + (monthly_savings * 12 * annual_interest_rate)
