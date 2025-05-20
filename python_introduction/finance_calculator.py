@@ -3,7 +3,7 @@
 # Function to calculate monthly savings and projected annual savings
 def calculate_financials(monthly_income, total_expenses):
     # Calculate monthly savings
-    monthly_savings = monthly_income - total_expenses
+    monthly_savings = float(monthly_income) - float(total_expenses)
     
     # Projected annual savings with a fixed interest rate of 5%
     projected_annual_savings = (monthly_savings * 12) + (monthly_savings * 12 * 0.05)
