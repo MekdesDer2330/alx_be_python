@@ -1,5 +1,4 @@
 
-# User Input for Financial Details
 monthly_income = float(input("Enter your monthly income: "))  # Input for monthly income
 total_expenses = float(input("Enter your total monthly expenses: "))  # Input for total monthly expenses
 
