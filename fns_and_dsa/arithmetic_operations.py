@@ -1,5 +1,17 @@
+# arithmetic_operations.py
 
-def perform_operation(num1: float, num2: float, operation: str) -> float:
+def perform_operation(num1: float, num2: float, operation: str):
+    """
+    Performs basic arithmetic operations based on the given numbers and operation.
+
+    Args:
+        num1 (float): The first number.
+        num2 (float): The second number.
+        operation (str): The type of operation ('add', 'subtract', 'multiply', 'divide').
+
+    Returns:
+        float or str: The result of the operation, or an error message for division by zero.
+    """
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
@@ -12,4 +24,4 @@ def perform_operation(num1: float, num2: float, operation: str) -> float:
         else:
             return num1 / num2
     else:
-        return "Error: Invalid operation. Please use 'add', 'subtract', 'multiply', or 'divide'."
+        return "Error: Invalid operation. Please choose from 'add', 'subtract', 'multiply', or 'divide'."
